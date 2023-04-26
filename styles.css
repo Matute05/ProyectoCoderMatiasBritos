@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(86, 14, 154);
+}
+
+li{
+    display: inline-block;
+    margin-top: 5%;
+    padding: 20px;
+    text-decoration: none;
+    word-spacing: 30px;
+}
+
+li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    list-style: none;
+    border: solid 5px black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.jumbotron{
+    border-radius: 0;
+    margin-bottom: 0;
+    background-image: url(./images/fondo_jumbotron2.jpg)
+}
+
+.jumbotron h1{
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.jumbotron p{
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+h2{
+    text-align: center;
+    background-color:rgb(86, 14, 154);
+    color: white;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.adultos{
+    height: 400px;
+}
+
+.adultos .row{
+    height: 400px;
+}
+
+.nright{
+    background-image: url(./images/imagen_seccion_adultos.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.nleft h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.nleft p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ninos .row .nleft{
+    background-image: url(./images/imagen_seccion_ninos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.ninos .row .nright{
+background-image: none;
+}
+
+.ninos .row .nright h3{
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color:rgb(86, 14, 154);
+    padding: 20px;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+.redes a{
+    font-size: 25px;
+    letter-spacing: 15px;
+    color: white;
+}
+
+.redes a:hover{
+    color: rgb(67, 2, 128);
+}
+
+.nosotras{
+    height: 500px;
+    background-image: url(./images/fotoFeria.jpeg);
+    background-size: cover;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nosotras h1{
+    margin-top: 250px;
+    text-shadow: 2 2 5px;
+}
+
+.quienesSomos{
+    height: 80px;
+    background-color: blueviolet;
+}
+
+
+.luciana{
+    min-height: 350px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    margin-left: 20%;
+}
+
+.luciana .card-img{
+height: 200px;
+width: 100%;
+background-color: grey;
+background-image: url(./images/foto_AleLu.jpeg);
+background-size: cover;
+background-position: center;
+}
+
+.luciana h4{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.luciana h5{
+    text-align: center;
+}
+
+.luciana p{
+    padding: 10px;
+}
+
+.luciana:hover{
+    transform: scale(1.10);
+    transition: all 1,5s;
+    box-shadow: 0 0 10px 5px blueviolet;
+    border-radius: 10px;
+}
+
+.alejandra{
+    min-height: 350px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    margin-left: 20%;
+}
+
+.alejandra .card-img{
+height: 200px;
+width: 100%;
+background-color: grey;
+background-image: url(./images/foto_AleLu.jpeg);
+background-size: cover;
+background-position: center;
+}
+
+.alejandra h4{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.alejandra h5{
+    text-align: center;
+}
+
+.alejandra p{
+    padding: 10px;
+}
+
+.alejandra:hover{
+    transform: scale(1.10);
+    transition: all 1,5s;
+    box-shadow: 0 0 10px 5px blueviolet;
+    border-radius: 10px;
+}
+
+.presentacion{
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 3, 130);
+    display: flex;
+    justify-content:space-evenly;
+    padding: 30px;
+}
+
+.contenedor{
+    width: 100%;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img4 img5 img6"
+    "img7 img4 img8 img8";
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.item{
+    border: 3px solid black;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.item1{
+    background-image: url(./images/prod1.jpeg);
+    grid-area: img1;
+}
+
+.item2{
+    background-image: url(./images/prod2.jpeg);
+    grid-area: img2;
+}
+
+.item3{
+    background-image: url(./images/prod3.jpeg);
+    grid-area: img3;
+}
+
+.item4{
+    background-image: url(./images/prod4.jpeg);
+    grid-area: img4;
+}
+
+.item5{
+    background-image: url(./images/prod5.jpeg);
+    grid-area: img5;
+}
+
+.item6{
+    background-image: url(./images/prod6.jpeg);
+    grid-area: img6;
+}
+
+.item7{
+    background-image: url(./images/prod7.jpeg);
+    grid-area: img7;
+}
+
+.item8{
+    background-image: url(./images/prod8.jpeg);
+    grid-area: img8;
+}
